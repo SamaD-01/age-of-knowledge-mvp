@@ -145,7 +145,7 @@ class Game {
             { pos: 23, type: 'CLOVER' },
 
             { pos: 8, type: 'SKULL' },
-            { pos: 18, type: 'SKULL' },
+            // { pos: 18, type: 'SKULL' },
             { pos: 26, type: 'SKULL' },
 
             { pos: 10, type: 'ACES' },
@@ -208,6 +208,7 @@ class Game {
 
         if (newPosition < 0) newPosition = 0;
         if (newPosition >= this.boardCoord.length && this.currentPlayer.color === 'yellow') newPosition = newPosition - this.boardCoord.length;
+        if (this.currentPlayer.position <= 15 && newPosition >= 15 && this.currentPlayer.color === 'yellow') newPosition = 15;
         if (newPosition >= this.boardCoord.length && this.currentPlayer.color === 'blue') newPosition = this.boardCoord.length - 1;
         
         this.currentPlayer.position = newPosition;
