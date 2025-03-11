@@ -442,3 +442,24 @@ body {
     transform: translateX(-50%);
     transition: all 0.5s;
 }
+
+.new_game {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 80px;
+    background-color: var(--color-seasalt);
+    border: 5px solid var(--color-pumpkin);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--color-pumpkin);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.new_game:hover {
+    background-color: var(--color-pumpkin);
+    color: var(--color-seasalt);
+}

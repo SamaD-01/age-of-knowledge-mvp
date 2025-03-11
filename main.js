@@ -115,6 +115,13 @@ function checkAnswer(answerText, questionId) {
     return isCorrect;
 }
 
+document.querySelector('.new_game').addEventListener('click', () => {
+    document.querySelector('.winner_container').style.display = 'none';
+    document.querySelector('.container').style.display = 'none';
+    document.querySelector('.start_form').style.display = 'flex';
+    clearGameState();
+});
+
 
 class Game {
     constructor(player1, player2) {
@@ -134,11 +141,11 @@ class Game {
         this.boardCoord = boardCoord;
         this.specialSquares = [
             { pos: 5, type: 'CLOVER' },
-            { pos: 15, type: 'CLOVER' },
+            { pos: 14, type: 'CLOVER' },
             { pos: 23, type: 'CLOVER' },
 
             { pos: 8, type: 'SKULL' },
-            { pos: 16, type: 'SKULL' },
+            { pos: 18, type: 'SKULL' },
             { pos: 26, type: 'SKULL' },
 
             { pos: 10, type: 'ACES' },
