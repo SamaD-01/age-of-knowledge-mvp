@@ -1,0 +1,79 @@
+{
+    "level1": [
+        {
+            "question": "Who has invented the steam machine?",
+            "correct_answer": "James Watt",
+            "options": ["Thomas Edison", "James Watt", "Henry Ford"]
+        },
+        {
+            "question": "Which invention was attributed to Eli Whitney?",
+            "correct_answer": "The cotton gin",
+            "options": ["The cotton gin", "The steam engine", "The electrical telegraph"]
+        },
+        {
+            "question": "Who is the inventor of the light bulb?",
+            "correct_answer": "Thomas Edison",
+            "options": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell"]
+        },
+        {
+            "question": "Who is the inventor of the electrical telegraph?",
+            "correct_answer": "Samuel Morse",
+            "options": ["Georges Stephenson", "James Hargreaves", "Samuel Morse"]
+        },
+        {
+            "question": "Who elaborated the Bessemer process?",
+            "correct_answer": "Henry Bessemer",
+            "options": ["Andrew Carnegie", "Henry Bessemer", "Robert Fulton"]
+        },
+        {
+            "question": "Who improved the Bessemer process?",
+            "correct_answer": "Henry Bessemer",
+            "options": ["Robert Mushet", "Robert Fulton", "Henry Bessemer"]
+        },
+        {
+            "question": "Who has invented the spinning machine (Spinning Jenny)?",
+            "correct_answer": "James Hargreaves",
+            "options": ["Richard Arkwright", "James Hargreaves", "Eli Whitney"]
+        },
+        {
+            "question": "Which process of industrialisation Henry Ford has created?",
+            "correct_answer": "The assembly line",
+            "options": ["The assembly line", "The steam engine", "The steam locomotives"]
+        },
+        {
+            "question": "Who is the pioneer of the steel industry in the US?",
+            "correct_answer": "Andrew Carnegie",
+            "options": ["Eli Whitney", "Andrew Carnegie", "Henry Bessemer"]
+        },
+        {
+            "question": "When did the industrial revolution begin?",
+            "correct_answer": "1760",
+            "options": ["1760", "1780", "1740"]
+        },
+        {
+            "question": "Where did the first industrial revolution begin?",
+            "correct_answer": "UK",
+            "options": ["USA", "Germany", "UK"]
+        },
+        {
+            "question": "What is the electrical equivalent of one horsepower?",
+            "correct_answer": "746W",
+            "options": ["746W", "846A", "1450MWh"]
+        },
+        {
+            "question": "When did the second industrial revolution begin?",
+            "correct_answer": "1860",
+            "options": ["1817", "1870", "1860"]
+        },
+        {
+            "question": "Where did the second industrial revolution begin?",
+            "correct_answer": "US",
+            "options": ["US", "UK", "France"]
+        },
+        {
+            "question": "Which industry was the first to be transformed by the industrial revolution?",
+            "correct_answer": "Textile industry",
+            "options": ["Food industry", "Textile industry", "Coal industry"]
+        }
+    ]    
+}

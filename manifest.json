@@ -1,0 +1,22 @@
+{
+    "name": "Age Of Knowledge",
+    "short_name": "AOK Game",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#FFC107",
+    "theme_color": "#FF8C42",
+    "orientation": "landscape",
+    "icons": [
+      {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP GAME</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FF8C42">
+</head>
+<body>
+    <div class="container">
+        <div class="side">
+            <div class="current_player">
+                <h2>Current turn :</h2>
+                <div class="current_player_card yellow">
+                    <span>Player 1</span>
+                </div>
+            </div>
+            <div class="dice">
+                <img src="DICE-1.png" alt="dice">
+            </div>
+        </div>
+        <div class="board">
+            <div class="pawn pawn_yellow">
+                <img src="pawn_yellow.png" alt="pawn">
+            </div>
+            <div class="pawn pawn_blue">
+                <img src="pawn_blue.png" alt="pawn">
+            </div>
+
+            <!-- <div class="special_case skull">
+                <img src="skull.png" alt="skull">
+            </div>
+            <div class="special_case aces">
+                <img src="aces.png" alt="aces">
+            </div>
+            <div class="special_case clover">
+                <img src="clover.png" alt="clover">
+            </div> -->
+        </div>
+    </div>
+    
+    <div class="start_form">
+        <div class="inputs">
+            <div class="input">
+                <label for="player1">Player 1 <span class="clr clr1">*</span></label>
+                <input type="text" id="player1name" placeholder="Player 1"> 
+            </div>
+            <div class="input">
+                <label for="player1">Player 2 <span class="clr clr2">*</span></label>
+                <input type="text" id="player2name" placeholder="Player 2">
+            </div>
+        </div>
+        <input type="button" value="Start" id="start">
+        <div id="error">Please fill the fields</div>
+    </div>
+
+    <div class="pre_game_loader">
+        <p>Preparing your game...</p>
+        <i class=""></i>
+    </div>
+
+    <!-- <div class="qa_container">
+        <div class="question_card">
+            <div class="question_card_inner">
+                <div class="question_card_front"></div>
+                <div class="question_card_back">
+                    <h1>
+                        What is the capital of France?
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="answer_container">
+            <div class="answer_button">
+                <span class="number">1</span>
+                <span class="answer">Paris</span>
+            </div>
+            <div class="answer_button">
+                <span class="number">2</span>
+                <span class="answer">London</span>
+            </div>  
+            <div class="answer_button">
+                <span class="number">3</span>
+                <span class="answer">Berlin</span>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="winner_container">
+        <div class="winner_card">
+            <span class="winner"></span>
+        </div>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
